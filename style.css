@@ -1,0 +1,8 @@
+body {
+  background-color: plum;
+}
+
+.result {
+  border: 1px cyan;
+  min-height: auto;
+}
