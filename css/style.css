@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(18, 18, 18);
+}
+
+.result {
+  border: 1px cyan;
+  min-height: auto;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.5rem;
+}
+.cal {
+  height: 25rem;
+  width: 25rem;
+}
+.links {
+  font-size: 1.5rem;
+}
