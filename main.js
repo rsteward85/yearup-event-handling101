@@ -10,9 +10,9 @@ function compoundInterest(initialAmount,interestRate,numberOfTimePeriods,amountI
     return initialAmount * (1 + (interestRate/numberOfTimePeriods)) **( amountInterestApplied * numberOfTimePeriods);  
 }
 
-let calculatorForm = document.getElementById('calculator-form');
-let inputX = document.getElementById('number-x');
-let inputY = document.getElementById('number-y');
+let calculatorForm = document.getElementById('mortage-calculator');
+let loanAmount = document.getElementById('loan-amount');
+let loanTerm = document.getElementById('loan-term');
 let resultElement = document.getElementById('result');
 
 let initialAmount = document.getElementById('initialAmount');
@@ -31,10 +31,10 @@ function onSubmit(event) {
 function onCalculate (event) {
         event.preventDefault();
 
-        console.log (inputX.value);
-        console.log (inputY.value);
+        console.log (inputloanAmount.value);
+        console.log (inputloanTerm.value);
 
-        let sum = Number(inputX.value) + Number(inputY.value);
+        let sum = Number(inputloanAmount.value) + Number(inputloanTerm.value);
         console.log(sum);
         resultElement.innerHTML = sum;
 }
